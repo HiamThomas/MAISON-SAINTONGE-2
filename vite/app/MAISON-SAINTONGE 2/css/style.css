@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f7f3eb;
+}
+
+.main-section {
+  color: #0d151e;
+}
+.main-section .block {
+  margin: 20px;
+  display: flex;
+}
+.main-section .block .image__sectionA,
+.main-section .block .image__sectionC {
+  min-width: 65%;
+  max-height: 620px;
+}
+.main-section .block .content-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 50px 0px 75px;
+}
+.main-section .block .content-section .content-body {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+}
+.main-section .block .content-section .content-body h1 {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 22px;
+  color: #0d151e;
+  margin: 0;
+}
+.main-section .block .content-section .content-body p {
+  font-family: "Tartuffo";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  max-width: 100%;
+  width: fit-content;
+  margin: 30px 0;
+}
+.main-section .block .content-section .content-body p i {
+  font-weight: 300;
+}
+.main-section .block .content-section .content-body span {
+  font-family: "Scandia";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #0d151e;
+}
+.main-section .block .content-section .fleur1 {
+  position: absolute;
+  width: 14%;
+  bottom: 10px;
+  right: 10%;
+}
+@media (max-width: 1221px) {
+  .main-section .block .content-section .fleur1 {
+    z-index: 5;
+    bottom: 0;
+  }
+}
+@media (max-width: 1168px) {
+  .main-section .block .content-section .fleur1 {
+    width: 12%;
+    bottom: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .main-section .block .content-section .fleur1 {
+    right: 20%;
+    bottom: 30px;
+    width: 90px;
+  }
+}
+@media (max-width: 945px) {
+  .main-section .block .content-section .fleur1 {
+    right: 17%;
+    bottom: 30px;
+    width: 90px;
+  }
+}
+@media (max-width: 738px) {
+  .main-section .block .content-section .fleur1 {
+    right: 15%;
+    bottom: 30px;
+    width: 90px;
+  }
+}
+@media (max-width: 643px) {
+  .main-section .block .content-section .fleur1 {
+    right: 12%;
+    bottom: 30px;
+    width: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .main-section .block .content-section .fleur1 {
+    right: 10px;
+    bottom: 30px;
+    width: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .main-section .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section .block .block-invert {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-section .block .content-section .content-body {
+    max-width: 40%;
+  }
+  .main-section .block .image__sectionA,
+  .main-section .block .image__sectionC {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .main-section .block .block-invert {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-section .block .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section .block .content-section .content-body {
+    max-width: 70%;
+  }
+  .main-section .block .image__sectionA,
+  .main-section .block .image__sectionC {
+    width: 100%;
+  }
+}
+.main-section .block-invert {
+  display: flex;
+  margin: 20px;
+}
+@media (max-width: 1024px) {
+  .main-section .block-invert {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-section .block-invert .content-section .content-body {
+    max-width: 40%;
+  }
+  .main-section .block-invert .image__sectionB,
+  .main-section .block-invert .image__sectionD {
+    min-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .main-section .block-invert {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-section .block-invert .content-section .content-body {
+    max-width: 70%;
+  }
+  .main-section .block-invert .image__sectionB,
+  .main-section .block-invert .image__sectionD {
+    width: 100%;
+  }
+}
+.main-section .block-invert .image__sectionB,
+.main-section .block-invert .image__sectionD {
+  width: 65%;
+}
+.main-section .block-invert .content-section {
+  padding: 50px 0px 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.main-section .block-invert .content-section .fleur2 {
+  position: absolute;
+  width: 20%;
+  bottom: 20px;
+  right: 38px;
+}
+.main-section .block-invert .content-section .content-body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.main-section .block-invert .content-section .content-body h1 {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 22px;
+  color: #0d151e;
+  margin: 0;
+}
+.main-section .block-invert .content-section .content-body p {
+  font-family: "Tartuffo";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  max-width: 100%;
+  width: fit-content;
+  margin: 20px 0;
+}
+.main-section .block-invert .content-section .content-body p i {
+  font-weight: 300;
+}
+.main-section .block-invert .content-section .content-body span {
+  font-family: "Scandia";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #0d151e;
+}
+
+.separation {
+  border: solid 2px black;
+  margin-top: 5rem;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.hero img {
+  width: 50%;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f3eb;
+  position: fixed;
+  width: 100%;
+  z-index: 1111;
+  top: 0;
+}
+header img {
+  width: 99.72px;
+  height: 101.36px;
+  margin-top: 15.17px;
+  margin-left: 88.75px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin-right: 105px;
+  font-family: "Tartuffo";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.18em;
+  text-transform: capitalize;
+}
+header nav ul li:hover {
+  cursor: pointer;
+  color: #a93d17;
+  transition: 0.2s ease;
+}
+header span {
+  font-family: "Tartuffo";
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.18em;
+  text-transform: capitalize;
+  color: #a93d17;
+  margin-right: 104px;
+}
+
+.footer {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.footer #footer-title {
+  text-align: center;
+  padding: 1rem;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 28px;
+}
+.footer .footer-content .footer-left,
+.footer .footer-content .footer-right {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-content .address,
+.footer .footer-content .contacts {
+  font-family: "Tartuffo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #0d151e;
+  padding: 15px 0;
+}
+.footer .footer-content .contacts,
+.footer .footer-content .item {
+  text-align: end;
+}
+.footer .footer-content .contacts-informations,
+.footer .footer-content .contacts-networks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer .footer-content .description-address,
+.footer .footer-content .item {
+  font-weight: 700;
+  font-family: "Tartuffo";
+  font-size: 12px;
+  color: #0d151e;
+  letter-spacing: 0.18em;
+  line-height: 21px;
+}
+.footer .footer-content .input-box {
+  display: flex;
+}
+.footer .footer-content .input-box input {
+  outline: none;
+  background: none;
+  border: none;
+  width: 194.5px;
+  margin-right: 5px;
+  border-bottom: solid 1px black !important;
+}
+.footer .footer-content .input-box button {
+  outline: none;
+  background-color: none;
+  border: none;
+}
+@media (max-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-content .footer-left,
+  .footer .footer-content .footer-right {
+    text-align: center;
+  }
+  .footer .footer-content .footer-left span,
+  .footer .footer-content .footer-left h2,
+  .footer .footer-content .footer-right span,
+  .footer .footer-content .footer-right h2 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
